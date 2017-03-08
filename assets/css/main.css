@@ -2369,6 +2369,9 @@
 			.icon.major:before {
 				font-size: 5.5rem;
 			}
+			.last {
+				min-height: 301px;
+			}
 
 		}
 
