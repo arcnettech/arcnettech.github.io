@@ -2378,9 +2378,7 @@
 			.icon.major:before {
 				font-size: 4.75rem;
 			}
-			.last {
-				min-height: 301px;
-			}
+			
 
 		}
 
@@ -2714,7 +2712,7 @@
 			}
 
 			.price {
-				
+				width: 100%;
 			}
 			.price-text {
 				margin-top: 13px;
@@ -3211,6 +3209,10 @@
 				#header.alt {
 					padding: 6em 4em 3em 4em ;
 				}
+				.price {
+					min-height: 202px;
+				}
+
 
 		}
 
@@ -3222,6 +3224,9 @@
 
 				#header.alt {
 					padding: 5em 3em 2em 3em ;
+				}
+				.price {
+					min-height: 202px;
 				}
 
 		}
