@@ -2706,9 +2706,7 @@
 			}
 
 			.first {
-				border-left: 1px solid gray;
-				border-top: 1px solid gray;
-				border-bottom: 1px solid gray;
+				border: 1px solid gray;
 			}
 			.last {
 				border: 1px solid gray;
@@ -3250,6 +3248,10 @@
 					#header.alt h1 {
 						font-size: 2.5em;
 					}
+					.tbody tr td {
+					padding: 3px!important;
+				}
+
 
 		}
 
@@ -3263,10 +3265,7 @@
 					padding: 4em 1.5em 1em 1.5em ;
 				}
 				.tbody tr td {
-					padding: 3px!important;
-				}
-				.last {
-					border-right: 0px;
+					padding: 0px!important;
 				}
 
 
@@ -3281,8 +3280,8 @@
 				#header.alt {
 					padding: 3.5em 1em 0.5em 1em ;
 				}
-				.last {
-					border-right: 0px;
+				.tbody tr td {
+					padding: 3px!important;
 				}
 
 		}
