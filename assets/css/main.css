@@ -2712,6 +2712,7 @@
 			}
 			.last {
 				border: 1px solid gray;
+
 			}
 
 			.price {
@@ -3264,6 +3265,10 @@
 				.tbody tr td {
 					padding: 3px!important;
 				}
+				.last {
+					border-right: 0px;
+				}
+
 
 		}
 
@@ -3275,6 +3280,9 @@
 
 				#header.alt {
 					padding: 3.5em 1em 0.5em 1em ;
+				}
+				.last {
+					border-right: 0px;
 				}
 
 		}
